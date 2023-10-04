@@ -91,6 +91,7 @@ header {
     .image {
       width: auto;
       height: auto;
+      left: 1px;
     } 
 
     .button-container {
