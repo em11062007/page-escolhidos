@@ -24,36 +24,26 @@ body {
     }
 
     .navbar:hover {
-      color: rgb(132, 0, 255);
+      color: rgb(36, 15, 231);
       font-style: oblique;
     }
 
     .logo {
-      font-size: 24px;
-      font-weight: bold;
-      border-radius: px;
-      margin-left: 28px;
-      display: flex;
-      align-items: center;
-    }
-
-    .logo-img {
-      width: 100px;
-      height: auto;
-      border-radius: 9px;
-      margin-right: 20px;
-    }
-
-.navbar {
-  max-width: 800px;
-  margin-left: auto;
+  font-size: 20px; 
+  margin-left: 20px; 
   display: flex;
   align-items: center;
-  letter-spacing: 5px;
+}
+
+.logo-img {
+  width: 100px; 
+  height: auto;
+  border-radius: 38px;
+  margin-right: 40px;
 }
 
 .nav-links li {
-  margin-right: 45px;
+  margin-right: 40px; 
 }
 
 .logo {
@@ -87,7 +77,7 @@ body {
     }
 
     .nav-links li a:hover {
-      color: rgb(173, 64, 247);
+      color: rgb(14, 172, 235);
       font-size: large;
       font-style: initial;
     }
