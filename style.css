@@ -109,9 +109,6 @@ header {
       border-radius: 10px;
       cursor: pointer;
     }
-    .content {
-   margin-top: 80px; 
-}
 
 :root {
     --color-neutral-0: #0e0c0c;
