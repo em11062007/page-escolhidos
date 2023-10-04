@@ -31,8 +31,8 @@ body {
     .logo {
       font-size: 24px;
       font-weight: bold;
-      border-radius: 7px;
-      margin-left: 10px;
+      border-radius: px;
+      margin-left: 28px;
       display: flex;
       align-items: center;
     }
@@ -40,9 +40,35 @@ body {
     .logo-img {
       width: 100px;
       height: auto;
-      border-radius: 7px;
-      margin-right: 10px;
+      border-radius: 9px;
+      margin-right: 20px;
     }
+
+.navbar {
+  max-width: 800px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  letter-spacing: 5px;
+}
+
+.nav-links li {
+  margin-right: 45px;
+}
+
+.logo {
+  font-size: 20px; 
+  margin-left: 20px; 
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 100px; 
+  height: auto;
+  border-radius: 18px;
+  margin-right: 50px; 
+}
 
     .nav-links {
       list-style: none;
@@ -67,7 +93,7 @@ body {
     }
 
     .content {
-      margin-top: 80px;
+      margin-top: 90px;
     }
 
     .container {
@@ -83,17 +109,17 @@ body {
     .button-container {
       position: absolute;
       top: 85%;
-      left: 75%;
+      left: 85%;
       transform: translate(-50%, -50%);
     }
 
     .button {
-      padding: 15px 40px;
-      font-size: 18px;
+      padding: 15px 60px;
+      font-size:15px;
       background-color: rgb(9, 9, 134);
       color: white;
       border: none;
-      border-radius: 5px;
+      border-radius: 10px;
       cursor: pointer;
     }
     .content {
