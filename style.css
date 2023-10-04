@@ -88,10 +88,10 @@ header {
       width: 100%;
     }
 
-    .image {
+   /* .image {
       width: 100%;
       height: auto;
-    }
+    } */
 
     .button-container {
       position: absolute;
