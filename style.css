@@ -80,7 +80,7 @@ header {
   font-style: initial;
 }
  .content {
-     /* margin-top: 90px; */
+      margin-top: 90px; 
     }
 
     .container {
@@ -88,10 +88,10 @@ header {
       width: 100%;
     }
 
-   /* .image {
-      width: 100%;
+    .image {
+      width: 800px;
       height: auto;
-    } */
+    } 
 
     .button-container {
       position: absolute;
