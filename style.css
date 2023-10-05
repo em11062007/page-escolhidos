@@ -72,6 +72,7 @@ padding: 10px;
 
 .container{
   background-image: url("https://img.freepik.com/fotos-premium/homem-mao-digitando-codigo-de-entrada-do-teclado-para-o-sistema-de-registro_42708-293.jpg");
+  background-repeat: no-repeat;
   width: 100%;
 }
 
