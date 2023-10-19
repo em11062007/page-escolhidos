@@ -7,6 +7,7 @@ body {
 }
 
 
+
 .topo {
   background-color: white;
   display: flex;
@@ -57,7 +58,7 @@ body {
 }
 
 .nav-links li a:hover {
-  color: white;
+  color: black;
   font-size: 30px;
   font-style: initial;
 }
@@ -102,20 +103,28 @@ body {
 
 
 
-.tudo{
-  background-color: rgb(168, 203, 218);
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.quadrados-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
 }
 
-
-
+.quadrado {
+  width: calc(33.33% - 10px);
+  height: 250px;
+  background-color: white;
+  margin-right: 30px;
+  margin-left: 30px; 
+  padding: 30px;
+  color: black;
+}
 
 /*rodape*/
 footer {
   width: 100%;
   color: var(--color-neutral-40);
   position: relative;
+  margin-top: 20px;
 }
 
 :root {
