@@ -101,7 +101,16 @@ body {
   margin-top: 25px;
 }
 
-
+.duração, .pq {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
 
 .quadrados-container {
   display: flex;
